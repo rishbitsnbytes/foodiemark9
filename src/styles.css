@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --prm-color: #f87171;
+  --bg-color: #fca5a5;
+  --sec-color: #dc2626;
+}
+
+.header {
+  color: var(--prm-color);
+}
+
+.subheader {
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.buttons {
+  background-color: white;
+  color: var(--bg-color);
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 3px outset var(--prm-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.list-area {
+  padding: 0rem;
+  margin: 1rem;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid var(--sec-color);
+  border-radius: 1.5rem;
+  background-color: var(--bg-color);
+}
